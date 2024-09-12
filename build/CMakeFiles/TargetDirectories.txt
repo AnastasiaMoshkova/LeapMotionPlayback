@@ -1,0 +1,3 @@
+D:/LeapMotionPlayback/build/CMakeFiles/RecordPlaybackSample.dir
+D:/LeapMotionPlayback/build/CMakeFiles/ALL_BUILD.dir
+D:/LeapMotionPlayback/build/CMakeFiles/ZERO_CHECK.dir
