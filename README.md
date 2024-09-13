@@ -3,8 +3,7 @@ RecordPlaybackSample.exe производит чтение файлов с ра�
 Проект - доработка Sample/RecordPlaybackSample.c из исходников Leap Motion SDK.
 
 
-Leap Motion SDK
-================================================================================
+### Описание Leap Motion SDK
 
 Package contents:
 
