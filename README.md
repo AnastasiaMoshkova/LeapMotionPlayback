@@ -1,6 +1,6 @@
 ## RecordPlaybackSample. 
 RecordPlaybackSample.exe производит чтение файлов с расширением .lmt и запись мета-информации и данных о ключевых точках ладони в текстовый файл. 
-Доработка Sample/RecordPlaybackSample.c из исходников Leap Motion SDK.
+Проект - доработка Sample/RecordPlaybackSample.c из исходников Leap Motion SDK.
 
 
 Leap Motion SDK
