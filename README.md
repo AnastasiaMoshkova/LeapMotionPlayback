@@ -8,15 +8,22 @@ RecordPlaybackSample.exe производит чтение файлов с ра�
 Package contents:
 
   LeapSDK
+  
     |- 3rdparty      -- External dependencies used by some of the samples.
+    
     |- docs          -- API reference documentation & guidelines.
+    
     |- include       -- API headers.
+    
     |- lib           -- API libraries, both dynamic and static.
+    
     |- samples       -- Various samples demonstrating several different usages.
+    
 
 Requirements:
     1. Running requires
       - Leap Motion Software (https://developer.leapmotion.com/get-started/)
+      
     2. Building Samples requires
       - CMake 3.10+ (https://cmake.org/)
       - Microsoft Visual Studio 15+
