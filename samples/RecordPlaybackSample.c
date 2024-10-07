@@ -75,9 +75,9 @@ int main(int argc, char** argv) {
 					for (uint32_t h = 0; h < frame->nHands; h++) {
 
 						float version = 2.1;
-						int timestamp = frame->info.timestamp;
-						int frame_id = frame->info.frame_id;
-						int tracking_frame_id = frame->tracking_frame_id;
+						long int timestamp = frame->info.timestamp;
+						long int frame_id = frame->info.frame_id;
+						long int tracking_frame_id = frame->tracking_frame_id;
 						float framerate = frame->framerate;
 
 						LEAP_HAND* hand = &frame->pHands[h];
@@ -106,7 +106,7 @@ int main(int argc, char** argv) {
 							hand->palm.orientation.y,
 							hand->palm.orientation.z);
 
-						fprintf(file, "    Confidence %f id_img %i visible_time %lli pinch_distance %f pinch_strength %f grab_angle %f grab_strength %f palm_width %f timestamp %lli img_id %lli tracking_img_id %i fps %f version %f .\n",
+						fprintf(file, "    Confidence %f id_img %i visible_time %li pinch_distance %f pinch_strength %f grab_angle %f grab_strength %f palm_width %f timestamp %li img_id %li tracking_img_id %li fps %f version %f .\n",
 							hand->confidence,
 							hand->id,
 							hand->visible_time,
