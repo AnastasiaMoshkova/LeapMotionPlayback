@@ -74,7 +74,7 @@ int main(int argc, char** argv) {
 
 					for (uint32_t h = 0; h < frame->nHands; h++) {
 
-						float version = 2.1;
+						float version = 2.2;
 						long int timestamp = frame->info.timestamp;
 						long int frame_id = frame->info.frame_id;
 						long int tracking_frame_id = frame->tracking_frame_id;
